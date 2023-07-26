@@ -13,8 +13,8 @@ function startGame() {
 var myGameArea = {
   canvas: document.createElement("canvas"),
   start: function () {
-    this.canvas.width = 480;
-    this.canvas.height = 270;
+    this.canvas.width = 750;
+    this.canvas.height = 350;
     this.context = this.canvas.getContext("2d");
     document.getElementById("gameArea").appendChild(this.canvas);
     this.frameNo = 0;
