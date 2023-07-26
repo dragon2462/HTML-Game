@@ -4,23 +4,12 @@ body {
   padding: 0;
 }
 
-#backgroundContainer {
+#gameArea {
   width: 750px;
   height: 350px;
   margin: 20px auto;
   border: 5px solid black;
-  background-image: url("img/flappy_bird_background.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative; /* Ensure proper positioning of the game area inside the container */
-}
-
-#gameArea {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-color: white;
 }
 
 #message{
